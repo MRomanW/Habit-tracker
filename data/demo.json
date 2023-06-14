@@ -1,0 +1,21 @@
+[
+  {
+    "id": 1,
+    "icon": "sport",
+    "name": "Push-ups",
+    "target": 10,
+    "days": [
+      {"comment": "Day 1"},
+      {"comment": "Day 2"}
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "Food",
+    "name": "Healthy Food",
+    "target": 10,
+    "days": [
+      {"comment": "Cool!"}
+    ]
+  }
+]
