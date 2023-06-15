@@ -253,7 +253,7 @@ input.error {
 }
 
 .cover__hidden {
-  /* display: none; */
+  display: none;
 }
 
 .popup {
@@ -262,6 +262,7 @@ input.error {
   border-radius: 10px;
   max-width: 600px;
   width: 100%;
+  gap: 15px;
   padding: 20px;
   position: relative;
   display: flex;
