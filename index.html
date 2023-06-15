@@ -44,10 +44,10 @@
         </div>
         <div class="habbit">
           <div class="habbit__day">Day _</div>
-          <form class="habbit__form">
-            <input class="input__icon" type="text" placeholder="Comment...">
+          <form class="habbit__form" onsubmit="addDays(event)">
+            <input name="comment" class="input__icon" type="text" placeholder="Comment...">
             <img class="input__icon--icon" src="images/comment.svg" alt="Icon comment">
-            <button class="button">Done</button>
+            <button class="button" type="submit">Done</button>
           </form>
         </div>
       </main>
